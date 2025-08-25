@@ -1,1 +1,1 @@
-# smart-kit.github.io
+# smart-kit
