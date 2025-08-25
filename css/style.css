@@ -273,6 +273,33 @@ section {
     border-left: 4px solid #00D4FF;
 }
 
+.step-content {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.step-text {
+    flex: 1;
+}
+
+.step-image {
+    flex: 0 0 300px;
+    text-align: center;
+}
+
+.step-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 238, 255, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.step-image img:hover {
+    transform: scale(1.05);
+}
+
 .step h5 {
     font-size: 1.8rem;
     color: #00D4FF;
