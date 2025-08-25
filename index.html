@@ -1,1 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Smart Kit - Control Your Device with Innovation</title>
 
+    <link href="images/smart_kit_logo.ico" rel="icon">
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" >
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" >
+
+    <script src="languages/en.js"></script>
+    <script src="languages/fr.js"></script>
+    <script src="languages/wo.js"></script>
+    <script src="js/language.js"></script>
+
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="policy.html" class="logo" data-lang="title">Smart Kit</a>
+
+      <nav class="navbar">
+        <a href="#home" data-lang="home" class="active">Home</a>
+        <a href="#gaze" data-lang="about-us">Gaze Tracker</a>
+        <a href="#length" data-lang="services">Length Measurement</a>
+        <a href="#angle" data-lang="app-features">Angle Measurement</a>
+      </nav>
+
+      <div class="lang-switches">
+        <a href="#" class="lang-btn" onclick="changeLanguage('en'); return false;">EN</a>
+        <a href="#" class="lang-btn" onclick="changeLanguage('fr'); return false;">FR</a>
+        <a href="#" class="lang-btn" onclick="changeLanguage('wo'); return false;">WO</a>
+      </div>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+    </header>
+
+    <a href="https://wa.me/+221772512564" target="_blank" class="whatsapp-float">
+      <i class='bx bxl-whatsapp'></i>
+      <span data-lang="whatsapp-text">Chat on WhatsApp</span>
+    </a>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3 data-lang="home-top">Be Among the First</h3>
+        <h2 data-lang="home-title">Discover New Ways to Control Your Device</h2>
+        <h1><span class="multiple-text">Smart Kit</span></h1>
+        <p data-lang="home-description">Experience revolutionary device control through gaze tracking, precise length measurements, and accurate angle detection. Get exclusive early access and be part of the future of mobile interaction.</p>
+        
+        <div class="social-media">
+          <a href="https://www.youtube.com/channel/UCEzKaaJk7iv1VzMz2pDtpzQ"><i class='bx bxl-youtube'></i></a>
+        </div>
+      
+        <a href="https://play.google.com/store/apps/details?id=com.jaayma.smartgaze" data-lang="install-button" class="btn">Install Now</a>
+      </div>
+      
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/DiA3OAiIxpk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Gaze Tracker section -->
+    <section class="feature-section" id="gaze">
+      <div class="feature-header">
+        <h2>Gaze Tracker</h2>
+        <p>Control your device hands-free using advanced face tracking technology. Move the cursor with head movements and click with simple winks.</p>
+      </div>
+      
+      <div class="feature-content">
+        <div class="feature-info">
+          <h3>How It Works</h3>
+          <p>Our innovative gaze tracking system uses your device's front camera to monitor your face movements and eye gestures. Simply move your head to control the cursor position, and wink to perform clicks.</p>
+          
+          <p><strong>Key Features:</strong></p>
+          <p>• Hands-free cursor control through head movements</p>
+          <p>• Click actions through wink detection</p>
+          <p>• Smooth and responsive tracking</p>
+          <p>• Customizable sensitivity settings</p>
+        </div>
+        
+        <div class="feature-icon">
+          <i class='bx bx-target-lock'></i>
+        </div>
+      </div>
+
+      <div class="calibration-steps">
+        <h4>Calibration Process</h4>
+        
+        <div class="step">
+          <h5>Step 1: Motion Calibration</h5>
+          <p>Follow a moving target on the screen using your head movements. This step teaches the system to recognize your natural head motion patterns and maps them to cursor movement. Keep your face visible to the camera and move smoothly to achieve the best results.</p>
+        </div>
+        
+        <div class="step">
+          <h5>Step 2: Click Calibration</h5>
+          <p>Control the cursor and position it inside the green target circles that appear on screen. Once positioned correctly, wink and hold for at least 2 seconds. This process is repeated five times for different coordinate positions. For optimal results, try to look directly at the camera while performing the wink gesture.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Length Measurement section -->
+    <section class="feature-section" id="length">
+      <div class="feature-header">
+        <h2>Length Measurement</h2>
+        <p>Transform your device into a precise measuring tool. Track displacement and calculate accurate length measurements for any object or distance.</p>
+      </div>
+      
+      <div class="feature-content">
+        <div class="feature-icon">
+          <i class='bx bx-ruler'></i>
+        </div>
+        
+        <div class="feature-info">
+          <h3>Precise Measurements</h3>
+          <p>Using advanced motion tracking algorithms, Smart Kit can accurately measure the length of objects by tracking your device's displacement along the measurement path.</p>
+          
+          <p><strong>Key Features:</strong></p>
+          <p>• High precision length calculations</p>
+          <p>• Real-time displacement tracking</p>
+          <p>• Support for various measurement units</p>
+          <p>• Save and share measurement results</p>
+        </div>
+      </div>
+
+      <div class="calibration-steps">
+        <h4>Calibration Process</h4>
+        
+        <div class="step">
+          <h5>Single-Step Calibration</h5>
+          <p><strong>Reference Object Setup:</strong> Find an object with a known length (like a ruler, book, or standard paper). Enter the exact length of this reference object into the calibration text field within the app.</p>
+          <p><strong>Calibration Measurement:</strong> Tap "Start Calibration" and carefully move your device along the entire length of the reference object, from one end to the other. Maintain steady movement for the most accurate calibration. The app will use this reference to calibrate all future length measurements.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Angle Measurement section -->
+    <section class="feature-section" id="angle">
+      <div class="feature-header">
+        <h2>Angle Measurement</h2>
+        <p>Accurately measure tilt angles and inclinations using your device's built-in sensors. Perfect for construction, design, and everyday angle measurement needs.</p>
+      </div>
+      
+      <div class="feature-content">
+        <div class="feature-info">
+          <h3>Professional Accuracy</h3>
+          <p>Leverage your device's gyroscope and accelerometer to provide precise angle measurements. Whether you're checking if a picture is straight or measuring slopes, Smart Kit delivers reliable results.</p>
+          
+          <p><strong>Key Features:</strong></p>
+          <p>• 360-degree angle measurement capability</p>
+          <p>• Real-time tilt angle display</p>
+          <p>• Multiple angle units (degrees, radians)</p>
+          <p>• Visual angle indicators and guides</p>
+        </div>
+        
+        <div class="feature-icon">
+          <i class='bx bx-math'></i>
+        </div>
+      </div>
+
+      <div class="calibration-steps">
+        <h4>Calibration Process</h4>
+        
+        <div class="step">
+          <h5>Step 1: 0° Calibration (Horizontal)</h5>
+          <p>Place your device on a perfectly flat, horizontal surface or against a level wall. This establishes the baseline horizontal reference point for all angle measurements.</p>
+        </div>
+        
+        <div class="step">
+          <h5>Step 2: 90° Calibration (Vertical)</h5>
+          <p>Position your device vertically against a wall or use a reliable vertical reference. This step calibrates the perpendicular angle reference, ensuring accurate right-angle measurements.</p>
+        </div>
+        
+        <div class="step">
+          <h5>Step 3: 180° Calibration (Inverted Horizontal)</h5>
+          <p>Flip your device to the opposite horizontal orientation (180° from the first position). This can be achieved by placing it flat on a surface with the screen facing down, or against a wall in the inverted position. This final step completes the full calibration cycle for maximum accuracy across all angles.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p data-lang="copyright">Copyright &copy; 2025 by JaaymaDev | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
