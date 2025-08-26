@@ -47,18 +47,3 @@
       ScrollReveal().reveal('.video-container, .feature-icon, .calibration-steps', { origin: 'bottom' });
       ScrollReveal().reveal('.home-content h1, .feature-info', { origin: 'left' });
       ScrollReveal().reveal('.home-content p, .btn', { origin: 'right' });
-
-      // Typed js
-      const typed = new Typed('.multiple-text', {
-        strings: ['Smart Kit', 'Gaze Control', 'Length Tracker', 'Angle Meter'],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-      });
-
-      // Language functions (placeholder)
-      function changeLanguage(lang) {
-        console.log('Changing language to:', lang);
-        // Your existing language change functionality would go here
-      }
