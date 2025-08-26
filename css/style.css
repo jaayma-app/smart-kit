@@ -84,29 +84,40 @@ body {
     cursor: pointer;
 }
 
+.whatsapp-float span {
+    font-size: 30%;
+    color: #FFF;
+}
+  
+.whatsapp-float i{
+    font-size: 100%;
+    left: 10px;
+    color: #FFF;
+}
+
 .whatsapp-float {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #fff;
+    bottom: 12%;
+    right: 30px;
+    background-color: #25D366;
+    color: #FFF;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-    text-decoration: none;
+    width: 15%;
+    height: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s;
+    text-decoration: none;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    z-index: 100;
+    transition: all 0.3s ease;
 }
 
 .whatsapp-float:hover {
+    background-color: #128C7E;
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(37, 211, 102, 0.6);
 }
 
 section {
