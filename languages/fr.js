@@ -18,7 +18,7 @@ const fr = {
     "home-multi-3": "Mesure d'Angle",
     
     // Gaze Tracker section
-    "gaze-title": "Suivi du Regard",
+    "gaze-title": "Suivi Oculaire",
     "gaze-description": "Contrôlez votre appareil sans les mains grâce à la technologie avancée de suivi facial. Déplacez le curseur avec les mouvements de tête et cliquez avec de simples clins d'œil.",
     "gaze-top": "Comment Ça Marche",
     "gaze-explained": "Notre système innovant de suivi du regard utilise la caméra frontale de votre appareil pour surveiller vos mouvements faciaux et vos gestes oculaires. Il suffit de bouger la tête pour contrôler la position du curseur, et cligner de l'œil pour effectuer des clics.",
