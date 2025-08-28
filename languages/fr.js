@@ -3,7 +3,7 @@ const fr = {
     // Navigation and header
     "title": "Smart Kit",
     "home": "Accueil",
-    "about-us": "Suivi du Regard",
+    "about-us": "Suivi Oculaire",
     "services": "Mesure de Longueur", 
     "app-features": "Mesure d'Angle",
     "whatsapp-text": "Discuter sur WhatsApp",
